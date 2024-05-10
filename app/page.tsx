@@ -18,14 +18,12 @@ export default function Home() {
             convenience of easy file managment and sharing in one place
           </p>
 
-          <SignInButton forceRedirectUrl={"/dashboard"} mode="modal">
-            <Link
-              className="flex w-fit bg-blue-500 cursor-pointer text-white p-4"
-              href={"#"}
-            >
-              Try it now for free <ArrowRight className="ml-10" />
-            </Link>
-          </SignInButton>
+          <Link
+            className="flex w-fit bg-blue-500 cursor-pointer text-white p-4"
+            href={"/dashboard"}
+          >
+            Try it now for free <ArrowRight className="ml-10" />
+          </Link>
         </div>
 
         <div className="h-full p-10 bg-[#1E1919] dark:bg-slate-800">
