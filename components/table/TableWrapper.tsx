@@ -2,7 +2,7 @@
 import { FileType } from "@/typings";
 import React, { useEffect, useState } from "react";
 import { Button } from "../ui/button";
-import { DataTable } from "./table";
+import { DataTable } from "./Table";
 import { columns } from "./columns";
 import { useUser } from "@clerk/nextjs";
 import { useCollection } from "react-firebase-hooks/firestore";
