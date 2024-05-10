@@ -83,7 +83,7 @@ function RenameModal() {
             <Button
               size={"sm"}
               type="submit"
-              className="px-3  bg-black hover:bg-black"
+              className="px-3 dark:bg-primary dark:hover:bg-primary  bg-black hover:bg-black"
               onClick={() => renameFile()}
             >
               <span className="sr-only">Rename</span>
