@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className="flex flex-col lg:flex-row items-center bg-[#1E1919] dark:bg-slate-800">
         <div className=" p-10 flex flex-col bg-[#282929] dark:bg-slate-800 text-white space-y-5">
-          <h1 className="text-5xl font-bold">
+          <h1 className="sm:text-5xl text-3xl font-bold">
             Welcome to FileRush. <br /> <br />
             Your business file store everything you need.All in one place
           </h1>
